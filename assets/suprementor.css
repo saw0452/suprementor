@@ -1,0 +1,161 @@
+/* UIkit Extensions */
+.uk-padding-micro-left {
+	padding-left: 5px;
+}
+
+.uk-padding-tiny-left {
+	padding-left: 10px;
+}
+
+.uk-padding-small-left {
+	padding-left: 15px;
+}
+
+.uk-padding-micro-right {
+	padding-right: 5px;
+}
+
+.uk-padding-tiny-right {
+	padding-right: 10px;
+}
+
+.uk-padding-small-right {
+	padding-right: 15px;
+}
+
+.sup-overflow-hidden .elementor-widget-container {
+	overflow: hidden;
+}
+
+/* Widget - All */
+
+.sup_widget_card img,
+.sup_widget_post_box img {
+	display: block;
+	width: 100%;
+}
+
+/* Widget - All Button */
+.sup-button {
+	transition: all 0.3s;
+}
+
+.sup-styled .sup-button {
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #5a5a5a;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.sup-styled .sup-button:hover {
+	background-color: #808080;
+}
+
+/* Widget - Card */
+.sup_widget_card.sup-styled .sup-card-inner {
+	padding: 15px 30px 15px 30px;
+}
+
+.sup_widget_card.sup-styled .sup-overlay {
+	background-color: rgba(255,255,255,0.75);
+}
+
+.sup_widget_card.sup-styled.image_top .sup-card-body,
+.sup_widget_card.sup-styled.image_bottom .sup-card-body,
+.sup_widget_card.sup-styled.cover .sup-card-body,
+.sup_widget_card.sup-styled.cover_boxed .sup-card-body {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* Widget - Post Accordion */
+.sup_widget_post_accordion.sup-styled .sup-post-accordion-image img {
+	display: block
+}
+
+.sup_widget_post_accordion.sup-styled .sup-post-accordion-title {
+	cursor: pointer;
+}
+
+.sup_widget_post_accordion.sup-styled .sup-post-accordion-title,
+.sup_widget_post_accordion.sup-styled .sup-post-accordion-image,
+.sup_widget_post_accordion.sup-styled .sup-post-accordion-inner {
+	padding: 15px;
+}
+
+.sup_widget_post_accordion.sup-styled .sup-post-accordion-title {
+	background-color: #f9f9f9;
+}
+
+.sup_widget_post_accordion .sup-post-accordion-title {
+	transition: all 0.3s;
+}
+
+.sup_widget_post_accordion .sup-post-accordion-title .sup-icon-closed,
+.sup_widget_post_accordion .uk-open .sup-post-accordion-title .sup-icon-open {
+	opacity: 1;
+}
+
+.sup_widget_post_accordion .sup-post-accordion-title .sup-icon-open,
+.sup_widget_post_accordion .uk-open .sup-post-accordion-title .sup-icon-closed {
+	opacity: 0;
+}
+
+/* Widget - Section SLider */
+.sup-section-slider .sup-slidenav {
+	transition: opacity 0.3s;
+}
+
+/* Widget - Post Box */
+.sup_widget_post_box.bold_list.sup-styled .sup-date-mini-wrap,
+.sup_widget_post_box.bold_card.sup-styled .sup-date-mini-wrap,
+.sup_widget_post_box.bold_card_mini.sup-styled .sup-date-mini-wrap {
+	background-color: #fff;
+	padding: 5px 15px;
+	margin: 15px 0 0 15px;
+}
+
+.sup_widget_post_box.bold_list.sup-styled .sup-categories,
+.sup_widget_post_box.bold_card.sup-styled .sup-categories,
+.sup_widget_post_box.bold_card_mini.sup-styled .sup-categories {
+	background-color: #f9f9f9;
+	padding: 5px 15px;
+	margin: 0 0 0 15px;
+}
+
+.sup_widget_post_box.bold_list.sup-styled .sup-post-title-wrap,
+.sup_widget_post_box.bold_card.sup-styled .sup-post-title-wrap,
+.sup_widget_post_box.bold_card_mini.sup-styled .sup-post-title-wrap,
+.sup_widget_post_box.smart_list.sup-styled .sup-post-title-wrap,
+.sup_widget_post_box.smart_list_mini.sup-styled .sup-post-title-wrap,
+.sup_widget_post_box.smart_card_mini.sup-styled .sup-post-title-wrap,
+.sup_widget_post_box.smart_card.sup-styled .sup-post-title-wrap {
+	padding: 15px;
+}
+
+.sup_widget_post_box.bold_list.sup-styled .sup-post-author-wrap,
+.sup_widget_post_box.bold_card.sup-styled .sup-post-author-wrap {
+	padding: 0 0 0 15px;
+}
+
+.sup_widget_post_box.bold_list.sup-styled .sup-excerpt-wrap,
+.sup_widget_post_box.bold_card.sup-styled .sup-excerpt-wrap,
+.sup_widget_post_box.smart_list.sup-styled .sup-excerpt-wrap,
+.sup_widget_post_box.smart_card.sup-styled .sup-excerpt-wrap {
+	padding: 15px 0 0 15px;
+}
+
+.sup_widget_post_box.bold_list.sup-styled .sup-button-wrap,
+.sup_widget_post_box.bold_card.sup-styled .sup-button-wrap,
+.sup_widget_post_box.smart_list.sup-styled .sup-button-wrap,
+.sup_widget_post_box.smart_card.sup-styled .sup-button-wrap {
+	margin: 15px 0 0 15px;
+}
+
+.sup_widget_post_box.smart_list.sup-styled .sup-meta-inline-wrap,
+.sup_widget_post_box.smart_list_mini.sup-styled .sup-meta-inline-wrap,
+.sup_widget_post_box.smart_card.sup-styled .sup-meta-inline-wrap,
+.sup_widget_post_box.smart_card_mini.sup-styled .sup-meta-inline-wrap {
+	padding: 0 0 0 15px;
+}
